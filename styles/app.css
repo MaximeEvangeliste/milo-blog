@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.theme-dark {
+  --backgroundColorPrimary: #2f3437;
+  --backgroundColorSecondary: #3f4447;
+  --backgroundColorThird: #363b3e;
+  --colorPrimary: #ffffff;
+  --colorSecondary: #5f666a;
+}
+
+.theme-light {
+  --backgroundColorPrimary: #ffffff;
+  --backgroundColorSecondary: #f2f2f2;
+  --backgroundColorThird: #f9f9fa;
+  --colorPrimary: #2f3437;
+  --colorSecondary: #5f666a;
+}
+
+.main {
+  transition: all 0.6s;
+  background: var(--backgroundColorPrimary);
+  color: var(--colorPrimary);
+}
+
+h2 {
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+  line-height: 2rem;
+}
+
+quote {
+  display: inline-block;
+  padding: 2rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 1rem;
+}
